@@ -1,7 +1,7 @@
-﻿  5_projection.cpp
+﻿  5_moreCubes.cpp
   Generating code
-  2 of 437 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  1 of 436 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    8 functions had inline decision re-evaluated but remain unchanged
+    16 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   GL_experiment.vcxproj -> C:\Xedin\Gamedev\openGL\GL_experiment\x64\Release\GL_experiment.exe

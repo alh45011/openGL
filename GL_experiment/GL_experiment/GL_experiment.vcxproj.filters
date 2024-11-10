@@ -81,6 +81,12 @@
     <ClCompile Include="5_projection.cpp">
       <Filter>Source Files\5_projection</Filter>
     </ClCompile>
+    <ClCompile Include="5_cube.cpp">
+      <Filter>Source Files\5_projection</Filter>
+    </ClCompile>
+    <ClCompile Include="5_moreCubes.cpp">
+      <Filter>Source Files\5_projection</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.hpp">
@@ -115,5 +121,6 @@
     <None Include="5_projection.vs">
       <Filter>Source Files\5_projection</Filter>
     </None>
+    <None Include="5_model.vs" />
   </ItemGroup>
 </Project>
