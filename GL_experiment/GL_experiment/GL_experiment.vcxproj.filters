@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{837ecf5c-cce2-4297-9b6e-8166938c43f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1 triangle">
+      <UniqueIdentifier>{c1cc7da5-3b84-437a-ab33-f9b42194c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 shaders">
+      <UniqueIdentifier>{93cb80a8-0de2-4909-b2c7-6b52a8e494bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3_textures">
+      <UniqueIdentifier>{9f83f743-0907-4d69-8f30-76812042598f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4_transformations">
+      <UniqueIdentifier>{57f0d194-683a-40cc-afe9-d330d4c4a42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\5_projection">
+      <UniqueIdentifier>{3a76fb72-f85d-4fe3-a1bf-a052a4a68f40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="1_triangle.cpp">
+      <Filter>Source Files\1 triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="2_square.cpp">
+      <Filter>Source Files\1 triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="2_triangles_diffVBO.cpp">
+      <Filter>Source Files\1 triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="2_triangles.cpp">
+      <Filter>Source Files\1 triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="2_shaders.cpp">
+      <Filter>Source Files\1 triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="3_shaders.cpp">
+      <Filter>Source Files\2 shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="3_new_attributes.cpp">
+      <Filter>Source Files\2 shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="3_shader_class.cpp">
+      <Filter>Source Files\2 shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="3_clampingface.cpp">
+      <Filter>Source Files\3_textures</Filter>
+    </ClCompile>
+    <ClCompile Include="3_mix_variable.cpp">
+      <Filter>Source Files\3_textures</Filter>
+    </ClCompile>
+    <ClCompile Include="3_texture.cpp">
+      <Filter>Source Files\3_textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GLAD\src\glad.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4_transform2.cpp">
+      <Filter>Source Files\4_transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="4_transformations.cpp">
+      <Filter>Source Files\4_transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="5_projection.cpp">
+      <Filter>Source Files\5_projection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="texture.fs">
+      <Filter>Source Files\3_textures</Filter>
+    </None>
+    <None Include="texture.vs">
+      <Filter>Source Files\3_textures</Filter>
+    </None>
+    <None Include="simpleOne.fs">
+      <Filter>Source Files\1 triangle</Filter>
+    </None>
+    <None Include="simpleOne.vs">
+      <Filter>Source Files\1 triangle</Filter>
+    </None>
+    <None Include="4_rotate.fs">
+      <Filter>Source Files\4_transformations</Filter>
+    </None>
+    <None Include="4_rotate.vs">
+      <Filter>Source Files\4_transformations</Filter>
+    </None>
+    <None Include="5_projection.fs">
+      <Filter>Source Files\5_projection</Filter>
+    </None>
+    <None Include="5_projection.vs">
+      <Filter>Source Files\5_projection</Filter>
+    </None>
+  </ItemGroup>
+</Project>

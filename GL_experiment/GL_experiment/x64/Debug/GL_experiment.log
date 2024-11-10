@@ -1,0 +1,5 @@
+﻿  main.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol gladLoadGLLoader referenced in function main
+main.obj : error LNK2001: unresolved external symbol glad_glViewport
+C:\Xedin\Gamedev\openGL\GL_experiment\x64\Debug\GL_experiment.exe : fatal error LNK1120: 2 unresolved externals
