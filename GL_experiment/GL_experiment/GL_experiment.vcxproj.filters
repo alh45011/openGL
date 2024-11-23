@@ -87,6 +87,18 @@
     <ClCompile Include="5_moreCubes.cpp">
       <Filter>Source Files\5_projection</Filter>
     </ClCompile>
+    <ClCompile Include="v5_view.cpp">
+      <Filter>Source Files\5_projection</Filter>
+    </ClCompile>
+    <ClCompile Include="6_camera_rotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6_camera_walk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6_euler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.hpp">
@@ -121,6 +133,8 @@
     <None Include="5_projection.vs">
       <Filter>Source Files\5_projection</Filter>
     </None>
-    <None Include="5_model.vs" />
+    <None Include="5_model.vs">
+      <Filter>Source Files\5_projection</Filter>
+    </None>
   </ItemGroup>
 </Project>

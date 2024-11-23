@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Xedin\Gamedev\openGL\GLFW\include;C:\Xedin\Gamedev\openGL\include;C:\Xedin\Gamedev\openGL\include\glad;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Xedin\Gamedev\openGL\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\repos\openGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\repos\openGL\include\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Xedin\Gamedev\openGL\GLFW\include;C:\Xedin\Gamedev\openGL\include;C:\Xedin\Gamedev\openGL\include\glad;$(IncludePath)</IncludePath>
@@ -192,15 +192,27 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="5_moreCubes.cpp" />
+    <ClCompile Include="5_moreCubes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="5_projection.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="6_camera_rotation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="6_camera_walk.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="6_euler.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="3_texture.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="v5_view.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -210,7 +222,9 @@
   <ItemGroup>
     <None Include="4_rotate.fs" />
     <None Include="4_rotate.vs" />
-    <None Include="5_model.vs" />
+    <None Include="5_model.vs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
     <None Include="5_projection.fs" />
     <None Include="5_projection.vs" />
     <None Include="simpleOne.fs">
